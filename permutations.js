@@ -1,3 +1,5 @@
+//permutations is the final function, you can pass any array and get responses of all possible permutations of arrays
+
 const arr = [1, 2, 3]; //input array
 
 //permutation function
@@ -11,3 +13,5 @@ const permutations = (arr = []) => {
   return ans;
 };
 console.log(permutations(arr));
+
+
